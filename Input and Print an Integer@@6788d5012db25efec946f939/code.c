@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int k;
-    scanf("%d",ch);
-    printf("You enterd: %d\n",k);
+    int ch;
+    scanf("%d",&ch);
+    printf("You enterd: %d\n",ch);
    
     return 0;
 }
