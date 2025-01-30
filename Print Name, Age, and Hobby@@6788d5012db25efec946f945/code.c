@@ -5,13 +5,13 @@ int main() {
   scanf("%s", name);
   scanf("%d",&age);
   getchar();
-  fgets(hobby, sizeof(hobby),stdin);
-  if (hobby[strlen(hobby) - 1] == '\n'){
-      hobby[strlen(hobby) - 1] = '\0'
+  fgets(hobby, sizeof(hobby), stdin);
+  if (hobby[strlen(hobby) - 1] == '\n')  {
+      hobby[strlen(hobby) - 1] = '\0';
   }
    
-  printf("Name: %s\n",name);
+  printf("Name: %s\n", name);
   printf("Age: %d\n", age);
-  printf("Hobby: %s\n",hobby);
+  printf("Hobby: %s\n", hobby);
     return 0;
 }
