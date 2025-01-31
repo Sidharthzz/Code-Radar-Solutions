@@ -8,6 +8,6 @@ int main() {
         return 1;
 
      }
-     printf("%d/n",num>> shift);
+     printf("%d\n",num>> shift);
     return 0;
 }
