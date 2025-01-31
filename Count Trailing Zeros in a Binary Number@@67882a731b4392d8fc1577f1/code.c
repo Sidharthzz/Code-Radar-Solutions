@@ -13,6 +13,6 @@ int main() {
         count++;
         num<<= 1;
             }
-            printf("%d\n",count);
+            printf("%d\n",count)
     return 0;
 }
