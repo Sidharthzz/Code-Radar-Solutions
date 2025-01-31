@@ -3,7 +3,7 @@
 
 int main() {
     int a,b ;
-    if (scan("%d %d",&a ,&b)!=2){
+    if (scanf("%d %d",&a ,&b)!=2){
         printf("Invalid input\n");
         return;
 
