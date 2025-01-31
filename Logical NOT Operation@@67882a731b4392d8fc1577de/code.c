@@ -2,7 +2,8 @@
 
 
 int main() { 
-   if (scanf("%d", &num)==1);
+   int num 
+   if (scanf("%d", &num)==1)
      if(!(num>o)){
         printf("True\n");
       }else{
