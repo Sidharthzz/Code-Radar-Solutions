@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main() {
-   int num;
-   scanf("%d", &num);
-int p = 0;
-while((num & 1)==0){
-num>>=1;
- p++;
+   int a;
+   scanf("%d",&a);
+   int msb = a>>(sizeof(int)*8-1)&1;
+   if (msb){
+    printf("Set");
 
    }
-   printf("%d\n",p);
-    return 0;
+   else{
+    printf("Not Set");
+   }
+
 }
