@@ -3,7 +3,7 @@
 
 int main() { 
    int num;
-   if (scanf("%d", &num)==1)
+   if (scanf("%d", &num) ==1 )
      if(!(num>o)){
         printf("True\n");
       }else{
