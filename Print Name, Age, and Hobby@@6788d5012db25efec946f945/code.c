@@ -4,12 +4,8 @@ int main() {
   int age;
   
    scanf("%s",name);
-
-   
-   scanf("%s",age);
-
-   
-   scanf("%s", hobby);
+   scanf("%d",&age);
+   scanf("%[^\n]", hobby);
 
    printf("Name: %s\n", name);
    printf("Age: %d\n", age);
