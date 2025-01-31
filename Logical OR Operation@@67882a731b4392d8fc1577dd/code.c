@@ -5,8 +5,11 @@ int main() {
      if(num1 > 0){
          printf("True\n");
 
-     }  else{
-         printf("False\n");
+     }  else if(num==0){
+         printf("zero\n");
+     }
+     else{
+        printf("False\n");
      }
 
 
