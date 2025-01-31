@@ -2,13 +2,13 @@
 
 
 int main() {
-  int a, b,c;
+  int a, b, c;
   scanf("%d %d %d", &a ,&b ,&c);
   if (A>=b && b>=c){
     printf("%d\n",  a );
 
-  }else if
-    (b>=a && b>=c){
+  }else if(b>=a && b>=c)
+  {
     printf("%d\n",b);
   } else{
     printf("%d\n",c);
