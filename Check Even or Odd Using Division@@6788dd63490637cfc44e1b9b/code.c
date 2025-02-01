@@ -5,7 +5,7 @@ int main() {
       
       if ((a / 2 )*2 == num){
         printf("Even\n");
-      } else {
+      }else {
         printf("Odd\n");
       }
 
