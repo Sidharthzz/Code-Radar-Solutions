@@ -22,13 +22,13 @@ int main() {
         printf ("31");
     } else if (  a == 9)
     {
-        printf("30")
+        printf("30");
     } else if ( a == 10){
-        printf("31")
+        printf("31");
     } else if (a == 11){
-        printf ("30")
+        printf ("30");
     } else {
-        printf("31")
+        printf("31");
     }
     return 0;
 }
