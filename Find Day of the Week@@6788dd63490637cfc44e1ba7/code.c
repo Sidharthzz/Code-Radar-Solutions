@@ -5,7 +5,7 @@ int main() {
     if (a<1  && a>7){
         printf("Invalid");
     }
-    return 0;
+     return 0;
      
     if (a=1){
         printf("Monday\n");
