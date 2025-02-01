@@ -6,6 +6,7 @@ int main() {
      scanf("%d",&a);
      if (a<=0){
         printf("Freezing\n");
-     }else ("Above Freezing\n");
+     }else {
+      printf("Above Freezing\n");}
     return 0;
 }
