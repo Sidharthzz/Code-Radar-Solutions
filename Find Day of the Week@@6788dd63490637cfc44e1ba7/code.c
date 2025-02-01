@@ -7,7 +7,7 @@ int main() {
     }
     return 0;
      
-    if (a==1){
+    if (a=1){
         printf("Monday\n");
     } 
     else if ( a== 2){
