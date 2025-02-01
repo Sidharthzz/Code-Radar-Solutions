@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() { 
-    char a;
+    char c;
     scanf ("%c",&c);
     if(c == 'A'){
       printf("Excellent\n");
@@ -9,6 +9,6 @@ int main() {
     } else if (c == 'C'){
       printf("Average");
     } else if ( c == 'D')
-     printf("Below Average");
+      printf("Below Average");
     return 0;
 }
