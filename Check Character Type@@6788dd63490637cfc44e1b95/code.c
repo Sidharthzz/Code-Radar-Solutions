@@ -5,14 +5,15 @@ int main() {
     scanf("%c",&ch);
     if(ch>= '0' && ch<='9'){
      printf("Digit\n");}
-    else if ((ch>='A' && ch<= 'Z')||(ch>='a' &&  ch<='z')){
-          if (ch == 'A' || ch == 'E' || ch == 'I'|| ch=='O' || ch == 'U'|| ch == 'a' || ch=='e' || ch == 'i'
-        || ch == 'o' || ch == 'u');}
-           printf("Vowel\n");
-         else 
-          { printf("Consonant\n");} 
-         else
-          { printf("Special Character\n");}
-    
+   else if (ch == 'a' || ch == 'e' || ch == 'i' || ch=='o' || ch=='u'||
+     ch== 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch== 'U'){
+        printf("Vowel\n");
+
+     } else if ((ch>= 'a' && ch <='z') || (ch>='A' && cch <= 'Z')){
+        printf("Consonant\n");
+        } else{
+            printf("Special Charecter\n");
+        }
+     }
     return 0;
 }
