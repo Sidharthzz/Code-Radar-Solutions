@@ -12,7 +12,7 @@ int main() {
      } else if ((ch>= 'a' && ch <='z') || (ch>='A' && ch <= 'Z')){
         printf("Consonant\n");
         } else{
-            printf("Special Charecter\n");
+            printf("Special Character\n");
         }
      
     return 0;
