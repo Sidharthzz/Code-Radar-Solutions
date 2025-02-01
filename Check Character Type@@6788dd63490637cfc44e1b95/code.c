@@ -10,7 +10,7 @@ int main() {
         || ch == 'o' || ch == 'u');
         printf("Vowel\n");
        else 
-       printf("Constant\n"); 
+        printf("Consonant\n"); 
     } else
         printf("Special Character\n");
     
