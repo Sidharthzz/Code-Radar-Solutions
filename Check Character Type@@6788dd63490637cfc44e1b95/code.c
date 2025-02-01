@@ -6,7 +6,7 @@ int main() {
     if(ch>= '0' && ch<='9')
      ptintf("Digit\n");
     else if ((ch>='A' && ch<= 'Z')||(ch>='a' &&
-    ch<='Z')){
+    ch<='z')){
         if(ch == 'A' || ch == 'E' || ch == 'I'|| ch=='0' || ch == 'U'|| ch == 'a' || ch=='e' || ch == 'i'
         || ch == 'o' || ch == 'u');
         printf("Vowel\n");
