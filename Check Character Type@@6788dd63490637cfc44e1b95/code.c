@@ -14,6 +14,6 @@ int main() {
         } else{
             printf("Special Charecter\n");
         }
-     }
+     
     return 0;
 }
