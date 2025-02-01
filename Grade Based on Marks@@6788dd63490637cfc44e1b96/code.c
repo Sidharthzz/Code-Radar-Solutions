@@ -10,7 +10,7 @@ int main() {
         printf("B\n");
       }else if ( marks>=70 && marks <88) {
         printf("C\n");
-      }else if (marks>=60 && marks < 70){printf("D\n")
+      }else if (marks>=60 && marks < 70){printf("D\n");
       }else {
         printf("F\n");
       }
