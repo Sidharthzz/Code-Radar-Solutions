@@ -5,6 +5,6 @@ int main() {
     char o;
   scanf("%d %d %c",&a , &b ,&c);
    if (+){
-   printf(a+b)}
+   printf(a+b);}
     return 0;
 }
