@@ -3,7 +3,7 @@
 int main() { 
     char ch;
     scanf("%c",&ch);
-    if(ch>= '0' && ch<='9')
+    if((ch>= '0' && ch<='9'))
      ptintf("Digit\n");
     else if ((ch>='A' && ch<= 'Z')||(ch>='a' &&
     ch<='z')){
