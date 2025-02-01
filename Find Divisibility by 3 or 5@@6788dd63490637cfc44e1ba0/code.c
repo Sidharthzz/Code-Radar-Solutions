@@ -8,7 +8,7 @@ int main() {
    }else if (a/5*5=a){
         printf("Divisible by 5\n");
    }else{
-        printf("Divisible by Both");
+        printf("Divisible by Both\n");
     }
     return 0;
 }
