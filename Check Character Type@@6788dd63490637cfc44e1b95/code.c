@@ -2,9 +2,9 @@
 
 int main() { 
     char ch;
-    scanf("%c",&ch)
+    scanf("%c",&ch);
     if((ch>= '0' && ch<='9'))
-     ptintf("Digit\n")
+     ptintf("Digit\n");
     else if ((ch>='A' && ch<= 'Z')||(ch>='a' &&
     ch<='Z')){
         if(ch == 'A' || ch == 'E' || ch == 'I'|| ch=='0' || ch == 'U'|| ch == 'a' || ch=='e' || ch == 'i'
