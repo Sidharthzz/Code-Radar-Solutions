@@ -9,7 +9,7 @@ if (a+b>c && a+c>b && b+c>a){
      printf("Isosceles\n");
  }  else if {
     printf("Scalene\n");
- }else{
+ }  else{
     printf("Not a Triangel");
  }
   
