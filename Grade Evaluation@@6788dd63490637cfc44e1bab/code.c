@@ -9,6 +9,6 @@ int main() {
     } else if (c == 'C'){
       printf("Average");
     } else if ( c == 'D')
-     printf( "Below Average");
+     printf("Below Average");
     return 0;
 }
