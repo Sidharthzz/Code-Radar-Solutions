@@ -7,9 +7,9 @@ int main() {
         printf("A\n");
 
       }else if (marks>= 80 && marks < 90){
-        printf("B\n")
+        printf("B\n");
       }else if ( marks>=70 && marks <88) {
-        printf("C\n")
+        printf("C\n");
       }else if (marks>=60 && marks < 70){printf("D\n")
       }else {
         printf("F\n");
