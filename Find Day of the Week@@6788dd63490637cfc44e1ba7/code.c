@@ -12,7 +12,8 @@ int main() {
     }
     else if (a==4){
         printf("Thursday\n");
-   
+    }else if (a==5){
+        prinf("Friday\n");
     }
     return 0 ;
 }
