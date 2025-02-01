@@ -10,6 +10,9 @@ int main() {
     }else if (a==3){
         printf("Wednesday\n");
     }
+    else if (a==4){
+        printf("Thursday\n");
    
+    }
     return 0 ;
 }
