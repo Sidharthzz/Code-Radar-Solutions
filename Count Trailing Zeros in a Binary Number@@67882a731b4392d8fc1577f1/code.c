@@ -1,18 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int num;
-    scanf("%d", &num);
-    if (num == 0){
-        printf("32\n");
-        return 0 ;
-
-    }
-    int count = 0;
-    while ((num & (1<<31))==0){
+    int n ,count = 0;
+    scanf("%d",&n);
+    while(n % 2 == 0 && n>0){
         count++;
-        num<<= 1;
-            }
-            printf("%d\n",count)
+        n/=2;
+    }
+    printf("%d\n",count);
     return 0;
 }
