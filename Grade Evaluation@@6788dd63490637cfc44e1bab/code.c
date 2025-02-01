@@ -9,6 +9,5 @@ int main() {
     }else if (c == 'C'){
         printf("Average");
     }
-
     return 0;
 }
