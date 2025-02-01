@@ -2,8 +2,8 @@
 
 
 int main() {
-    int num;
-    scanf("%d",&num);
+    int n;
+    scanf("%d",&n);
     for (int i = 31; i>=0 ;i--){
         if(n&(1<<i))
         printf("1");
