@@ -12,6 +12,11 @@ int main() {
    } else if (c == '*'){
     printf("%d\n", a*b);
    } else  if (c == '/'){
+    if (b != 0){
+        printf("%d\n",a/b);
+    }else {
+        printf("Error\n");
+    }
     printf("%d", a/b);
    }
     return 0;
