@@ -11,8 +11,8 @@ int main() {
         printf("Vowel\n");
        else 
        printf("Constant\n"); 
-    } else{
+    } else
         printf("Special Character\n");
-    }
+    
     return 0;
 }
