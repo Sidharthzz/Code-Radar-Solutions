@@ -18,7 +18,7 @@ int main() {
         printf("Error\n");
     }
    }else{
-    prntf("Error\n");
+    printf("Error\n");
    }
     return 0;
 }
