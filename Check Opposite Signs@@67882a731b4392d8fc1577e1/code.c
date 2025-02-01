@@ -4,8 +4,8 @@ int main() {
     int num1 , num2;
     if (scanf("%d %d", &num1 , &num2) != 2){
         printf("False\n");
+        return 1 ;
     }
-      return 1;
 
    if ((num1<0 && num2> 0)||(num1>0 &&  num2 <0)) {
     printf("True\n");
