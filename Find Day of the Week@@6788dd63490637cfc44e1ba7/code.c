@@ -16,9 +16,9 @@ int main() {
         prinf("Friday\n");
     }else if (a==6){
         printf("Saturday\n");
-    } else if (a==7){
+    }else if (a==7){
         printf("Sunday\n");
-    } else {
+    }else {
         printf("Invalid\n");
     }
     return 0 ;
