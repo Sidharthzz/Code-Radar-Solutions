@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a ;
+    int a;
     scanf("%d",&a);
     if (a/3*3==a){
         printf("Divisible by 3\n");
