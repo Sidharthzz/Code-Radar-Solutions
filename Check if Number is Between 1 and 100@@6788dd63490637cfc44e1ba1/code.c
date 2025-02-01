@@ -6,7 +6,7 @@ int main() {
     if (a>=1 && a<= 100){
         printf("In Range\n");
  }  else{
-    printf("Out of Rnge\n");
+    printf("Out of Range\n");
  }
 
     return 0;
