@@ -15,4 +15,5 @@ int main() {
     } else if (a==3){
         printf("Wednesday");
     }
+    return 0 ;
 }
