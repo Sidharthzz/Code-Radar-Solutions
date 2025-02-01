@@ -8,11 +8,11 @@ int main() {
     return 0;
      
     if (a==1){
-        printf("Monday\n")
+        printf("Monday\n");
     } 
     else if ( a== 2){
-        printf("Tuesday")
+        printf("Tuesday");
     } else if (a==3){
-        printf("Wednesday")
+        printf("Wednesday");
     }
 }
